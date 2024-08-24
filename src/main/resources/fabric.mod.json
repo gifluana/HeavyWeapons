@@ -2,15 +2,15 @@
 	"schemaVersion": 1,
 	"id": "heavyweapons",
 	"version": "${version}",
-	"name": "HypeSquad Heavy Weapons",
-	"description": "HypeSquad is a Minecraft SMP series",
+	"name": "Heavy Weapons",
+	"description": "Heavy Weapons add Skillet, Heavy Boots and Heavy Crossbow to the game!",
 	"authors": [
 		"LunazStudios"
 	],
 	"contact": {
 		"homepage": "https://lunazstudios.com/"
 	},
-	"license": "All Rights Reserved",
+	"license": "MIT",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -28,8 +28,8 @@
 		"heavyweapons.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

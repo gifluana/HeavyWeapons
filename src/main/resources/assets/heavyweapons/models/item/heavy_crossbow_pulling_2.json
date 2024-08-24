@@ -1,0 +1,6 @@
+{
+    "parent": "heavyweapons:item/heavy_crossbow",
+    "textures": {
+        "layer0": "heavyweapons:item/heavy_crossbow_pulling_2"
+    }
+}

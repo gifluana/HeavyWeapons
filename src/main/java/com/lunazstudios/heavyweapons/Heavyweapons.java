@@ -1,22 +1,26 @@
 package com.lunazstudios.heavyweapons;
 
+import com.lunazstudios.heavyweapons.item.HSItemGroup;
+import com.lunazstudios.heavyweapons.item.HSItems;
+import com.lunazstudios.heavyweapons.registry.HSEntities;
+import com.lunazstudios.heavyweapons.registry.HSSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Heavyweapons implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("heavyweapons");
+	public static final String MOD_ID = "heavyweapons";
+	public static final String MOD_NAME = "HypeSquad Heavy Weapons";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		LOGGER.info("Initializing " + MOD_NAME + "!");
 
-		LOGGER.info("Hello Fabric world!");
+		HSItems.registerHSItems();
+		HSItemGroup.registerHSItemGroups();
+		HSSounds.registerSounds();
+		HSEntities.registerEntities();
 	}
 }

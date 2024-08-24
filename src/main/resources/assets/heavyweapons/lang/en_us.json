@@ -1,0 +1,16 @@
+{
+  "sounds.heavyweapons.skillet_attack_strong": "Skillet Strong Attack",
+  "sounds.heavyweapons.skillet_attack_weak": "Skillet Weak Attack",
+
+  "heavyweapons.itemgroup.heavyweapons": "Heavy Weapons",
+  "item.heavyweapons.skillet": "Skillet.",
+  "item.heavyweapons.heavy_boots": "Heavy Boots",
+  "item.heavyweapons.heavy_crossbow": "Heavy Crossbow",
+  "item.heavyweapons.explosive_arrow": "Explosive Arrow",
+  "item.heavyweapons.heavy_upgrade_smithing_template": "Smithing Template",
+  "item.heavyweapons.smithing_template.heavy_upgrade.additions_slot_description": "Add Heavy Core",
+  "item.heavyweapons.smithing_template.heavy_upgrade.applies_to": "Crossbow, Netherite Boots and Mace",
+  "item.heavyweapons.smithing_template.heavy_upgrade.base_slot_description": "Add Netherite Boots, Mace or Crossbow",
+  "item.heavyweapons.smithing_template.heavy_upgrade.ingredients": "Heavy Core",
+  "upgrade.heavyweapons.heavy_upgrade": "Heavy Upgrade"
+}

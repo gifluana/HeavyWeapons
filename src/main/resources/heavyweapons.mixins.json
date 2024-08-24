@@ -3,7 +3,7 @@
 	"package": "com.lunazstudios.heavyweapons.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"OnFallDamageMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

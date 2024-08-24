@@ -1,0 +1,15 @@
+{
+  "heavyweapons.itemgroup.heavyweapons": "Armas pesadas",
+  "item.heavyweapons.explosive_arrow": "Flecha explosiva",
+  "item.heavyweapons.heavy_boots": "Botas pesadas",
+  "item.heavyweapons.heavy_crossbow": "Besta pesada",
+  "item.heavyweapons.heavy_upgrade_smithing_template": "Molde de ferraria",
+  "item.heavyweapons.skillet": "Frigideira.",
+  "item.heavyweapons.smithing_template.heavy_upgrade.additions_slot_description": "Adicione um núcleo pesado",
+  "item.heavyweapons.smithing_template.heavy_upgrade.applies_to": "Besta, Botas de netherita ou Clava",
+  "item.heavyweapons.smithing_template.heavy_upgrade.base_slot_description": "Adicione Botas de netherita, Clava ou Besta",
+  "item.heavyweapons.smithing_template.heavy_upgrade.ingredients": "Núcleo pesado",
+  "sounds.heavyweapons.skillet_attack_strong": "Ataque forte da frigideira",
+  "sounds.heavyweapons.skillet_attack_weak": "Ataque fraco da frigideira",
+  "upgrade.heavyweapons.heavy_upgrade": "Melhoria pesada"
+}

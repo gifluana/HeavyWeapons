@@ -2,17 +2,15 @@
 	"schemaVersion": 1,
 	"id": "heavyweapons",
 	"version": "${version}",
-	"name": "heavyweapons",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "HypeSquad Heavy Weapons",
+	"description": "HypeSquad is a Minecraft SMP series",
 	"authors": [
-		"Me!"
+		"LunazStudios"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://lunazstudios.com/"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/heavyweapons/icon.png",
+	"license": "All Rights Reserved",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -20,8 +18,12 @@
 		],
 		"fabric-datagen": [
 			"com.lunazstudios.heavyweapons.HeavyweaponsDataGenerator"
+		],
+		"client": [
+			"com.lunazstudios.heavyweapons.HeavyweaponsClient"
 		]
 	},
+	"icon": "assets/heavyweapons/icon.png",
 	"mixins": [
 		"heavyweapons.mixins.json"
 	],

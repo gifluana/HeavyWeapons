@@ -1,0 +1,14 @@
+{
+  "skillet_attack_strong": {
+    "subtitle": "sounds.heavyweapons.skillet_attack_strong",
+    "sounds": [
+      "heavyweapons:skillet_attack_strong"
+    ]
+  },
+  "skillet_attack_weak": {
+    "subtitle": "sounds.heavyweapons.skillet_attack_weak",
+    "sounds": [
+      "heavyweapons:skillet_attack_weak"
+    ]
+  }
+}
